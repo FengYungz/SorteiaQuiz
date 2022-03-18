@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "title": "Qual a capital do Brasil?",
+        "alt1": "(A) São Paulo",
+        "alt2": "(B) Bahia",
+        "alt3": "(C) Brasilia",
+        "alt4": "(D) Salvador"
+    },
+    {
+        "id": 1,
+        "title": "Qual a capital do EUA?",
+        "alt1": "(A) São Paulo",
+        "alt2": "(B) Bahia",
+        "alt3": "(C) Brasilia",
+        "alt4": "(D) Salvador"
+    },
+    {
+        "id": 2,
+        "title": "Qual a capital do Ucrania?",
+        "alt1": "(A) São Paulo",
+        "alt2": "(B) Bahia",
+        "alt3": "(C) Brasilia",
+        "alt4": "(D) Salvador"
+    }
+]
