@@ -44,7 +44,7 @@ function Quiz() {
                         .map((item) => (
                             <span key={item.id}>
                                 <ul>
-                                    <li>{item.title}</li>
+                                    <li className="enunciado">{item.title}</li>
                                     <li>{item.alt1}</li>
                                     <li>{item.alt2}</li>
                                     <li>{item.alt3}</li>
@@ -58,7 +58,9 @@ function Quiz() {
                         <option value="C" onClick={() => setValueSelect('C')}>(C)</option>
                     </select>
                     <button onClick={() => SetData()}>Salvar</button>
-                    <input type="hidden" value={valueFinal}/>
+                    <div className="pega">
+                        <input type="hidden" value={valueFinal}/>
+                    </div>
                 </div>
             </ContainerQuiz>
         </>
