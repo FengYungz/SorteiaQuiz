@@ -9,8 +9,7 @@ function Page() {
         <>
             <ContainerPage>
                 <div>
-                    <span className="xiu">aaaaaaaaaaaaaaaaaa</span>
-                    <h1>TEste</h1>
+                    <h1>Sorteador de Perguntas</h1>
                 </div>
                 <Quiz />
             </ContainerPage>
