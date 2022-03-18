@@ -11,7 +11,7 @@ justify-content: center;
     background-color: #ffffff;
     border-radius: 10px;
     width: 610px;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -42,8 +42,26 @@ justify-content: center;
         height: 48px;
     }
 
+    ul{
+        text-align: center;
+        margin-top: 40px;
+    }
+
     li {
         list-style-type: none;
+        margin-top: 7px;
+    }
+
+    .enunciado{
+        font-size: 25px;
+    }
+
+    select{
+        border-radius: 5px;
+        width: 550px;
+        height: 30px;
+        margin-top: 40px;
+        text-align: center;
     }
 `
 export const ContainerButton = styled.div`
