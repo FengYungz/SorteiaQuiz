@@ -64,7 +64,7 @@ justify-content: center;
     }
 
     .resposta{
-        display: none;
+        color: #ffffff;
     }
 
     .lista{
