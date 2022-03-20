@@ -56,6 +56,7 @@ function Quiz() {
                         <option value="A" onClick={() => setValueSelect('A')}>(A)</option>
                         <option value="B" onClick={() => setValueSelect('B')}>(B)</option>
                         <option value="C" onClick={() => setValueSelect('C')}>(C)</option>
+                        <option value="D" onClick={() => setValueSelect('D')}>(D)</option>
                     </select>
                     <button onClick={() => SetData()}>Salvar</button>
                     <div className="pega">
