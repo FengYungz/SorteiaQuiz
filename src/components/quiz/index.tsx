@@ -18,6 +18,7 @@ function Quiz() {
         setValueFinal(valueSelect)
     }
 
+
     function ramdom() {
     const value = Math.floor(Math.random() * 3);
     // @ts-ignore
@@ -51,15 +52,16 @@ function Quiz() {
                         ))}
                     </div>
                     <select name="alternativas" id="alt" onChange={(e) => setValueSelect(e.target.value)}>
-                        <option value="" onClick={() => setValueSelect('A')}></option>
+                        <option value="nada">Resposta</option>
                         <option value="A" onClick={() => setValueSelect('A')}>(A)</option>
                         <option value="B" onClick={() => setValueSelect('B')}>(B)</option>
                         <option value="C" onClick={() => setValueSelect('C')}>(C)</option>
+                        <option value="D" onClick={() => setValueSelect('D')}>(D)</option>
                     </select>
                     <button onClick={() => SetData()}>Salvar</button>
                     <div className="pega">
                         <input type="hidden" value={valueFinal}/>
-                        <span className="resposta">{valueFinal}</span>
+                        <span>{valueFinal}</span>
                     </div>
                 </div>
             </ContainerQuiz>

@@ -64,9 +64,6 @@ justify-content: center;
         text-align: center;
     }
 
-    .resposta{
-        display: none;
-    }
 `
 export const ContainerButton = styled.div`
 display: grid;
