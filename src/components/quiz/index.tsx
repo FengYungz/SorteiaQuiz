@@ -59,7 +59,6 @@ function Quiz() {
                     <button onClick={() => SetData()}>Salvar</button>
                     <div className="pega">
                         <input type="hidden" value={valueFinal}/>
-                        <span className="resposta">{valueFinal}</span>
                     </div>
                 </div>
             </ContainerQuiz>
