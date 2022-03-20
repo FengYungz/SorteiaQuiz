@@ -43,7 +43,6 @@ justify-content: center;
     }
 
     ul{
-        text-align: center;
         margin-top: 40px;
     }
 
@@ -62,6 +61,16 @@ justify-content: center;
         height: 30px;
         margin-top: 40px;
         text-align: center;
+    }
+
+    .resposta{
+        display: none;
+    }
+
+    .lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 `
