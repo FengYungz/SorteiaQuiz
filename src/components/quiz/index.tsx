@@ -42,12 +42,14 @@ function Quiz() {
                         .filter((item) => item.id === itemselect)
                         .map((item) => (
                             <span key={item.id}>
-                                <ul>
-                                    <li className="enunciado">{item.title}</li>
-                                    <li>{item.alt1}</li>
-                                    <li>{item.alt2}</li>
-                                    <li>{item.alt3}</li>
-                                </ul>
+                                <div className="lista">
+                                    <ul>
+                                        <li className="enunciado">{item.title}</li>
+                                        <li>{item.alt1}</li>
+                                        <li>{item.alt2}</li>
+                                        <li>{item.alt3}</li>
+                                    </ul>
+                                </div>
                             </span>
                         ))}
                     </div>
@@ -61,7 +63,7 @@ function Quiz() {
                     <button onClick={() => SetData()}>Salvar</button>
                     <div className="pega">
                         <input type="hidden" value={valueFinal}/>
-                        <span>{valueFinal}</span>
+                        <span className="resposta">{valueFinal}</span>
                     </div>
                 </div>
             </ContainerQuiz>
