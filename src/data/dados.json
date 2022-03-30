@@ -1,26 +1,170 @@
 [
     {
         "id": 0,
-        "title": "Qual a capital do Brasil?",
-        "alt1": "(A) São Paulo",
-        "alt2": "(B) Bahia",
-        "alt3": "(C) Brasilia",
-        "alt4": "(D) Salvador"
+        "title": "Em que estado brasileiro nasceu a apresentadora Xuxa?",
+        "alt1": "(1) RIO DE JANEIRO",
+        "alt2": "(2) RIO GRANDE DO SUL",
+        "alt3": "(3) SANTA CATARINA",
+        "alt4": "(4) GOIÁS"
     },
     {
         "id": 1,
-        "title": "Qual a capital do EUA?",
-        "alt1": "(A) São Paulo",
-        "alt2": "(B) Bahia",
-        "alt3": "(C) Brasilia",
-        "alt4": "(D) Salvador"
+        "title": "Qual é o nome dado ao estado da água em forma de gelo?",
+        "alt1": "(1) LÍQUIDO",
+        "alt2": "(2) SÓLIDO",
+        "alt3": "(3) GASOSO",
+        "alt4": "(4) VAPOROSO"
     },
     {
         "id": 2,
-        "title": "Qual a capital do Ucrania?",
-        "alt1": "(A) São Paulo",
-        "alt2": "(B) Bahia",
-        "alt3": "(C) Brasilia",
-        "alt4": "(D) Salvador"
+        "title": "Qual era o apelido da cantora Elis Regina?",
+        "alt1": "(1) GAUCHINHA",
+        "alt2": "(2) PAULISTINHA",
+        "alt3": "(3) PIMENTINHA",
+        "alt4": "(4) ANDORINHA"
+    },
+    {
+        "id": 3,
+        "title": "Quem é a namorada do Mickey?",
+        "alt1": "(1) MARGARIDA",
+        "alt2": "(2) MINNIE",
+        "alt3": "(3) A PEQUENA SEREIA",
+        "alt4": "(4) OLÍVIA PALITO"
+    },
+    {
+        "id": 4,
+        "title": "Quem é a namorada do Mickey?",
+        "alt1": "(1) MARGARIDA",
+        "alt2": "(2) MINNIE",
+        "alt3": "(3) A PEQUENA SEREIA",
+        "alt4": "(4) OLÍVIA PALITO"
+    },
+    {
+        "id": 5,
+        "title": "Qual é o personagem do folclore brasileiro que tem uma perna só?",
+        "alt1": "(1) CUCA",
+        "alt2": "(2) NEGRINHO DO PASTOREIO",
+        "alt3": "(3) BOITATÁ",
+        "alt4": "(4) SACI-PERERÊ"
+    },
+    {
+        "id": 6,
+        "title": "Fidel Castro nasceu em que país?",
+        "alt1": "(1) JAMAICA",
+        "alt2": "(2) CUBA",
+        "alt3": "(3) EL SALVADOR",
+        "alt4": "(4) MÉXICO"
+    },
+    {
+        "id": 7,
+        "title": "Quem proclamou a república no Brasil em 1889?",
+        "alt1": "(1) DUQUE DE CAXIAS",
+        "alt2": "(2) MARECHAL RONDON",
+        "alt3": "(3) DOM PEDRO II",
+        "alt4": "(4) MARECHAL DEODORO"
+    },
+    {
+        "id": 8,
+        "title": "Quem é o patrono do exército brasileiro?",
+        "alt1": "(1) MARECHAL DEODORO",
+        "alt2": "(2) BARÃO DE MAUÁ",
+        "alt3": "(3) DUQUE DE CAXIAS",
+        "alt4": "(4) MARQUÊS DE POMBAL"
+    },
+    {
+        "id": 9,
+        "title": "Quem era o apresentador que reprovava os calouros tocando uma buzina?",
+        "alt1": "(1) RAUL GIL",
+        "alt2": "(2) BOLINHA",
+        "alt3": "(3) FLÁVIO CAVALCANTI",
+        "alt4": "(4) CHACRINHA"
+    },
+    {
+        "id": 10,
+        "title": "O que era Frankenstein, de Mary Shelley?",
+        "alt1": "(1) MONSTRO",
+        "alt2": "(2) GORILA",
+        "alt3": "(3) PRÍNCIPE",
+        "alt4": "(4) SAPO"
+    },
+    {
+        "id": 11,
+        "title": "Qual é o signo do zodíaco de quem nasce no dia do ano-novo?",
+        "alt1": "(1) VIRGEM",
+        "alt2": "(2) AQUÁRIO",
+        "alt3": "(3) CAPRICÓRNIO",
+        "alt4": "(4) ÁRIES"
+    },
+    {
+        "id": 12,
+        "title": "Quem fundou a fábrica de automóveis Ford?",
+        "alt1": "(1) HARRISON FORD",
+        "alt2": "(2) GERALD FORD",
+        "alt3": "(3) HENRY FORD",
+        "alt4": "(4) ANNA FORD"
+    },
+    {
+        "id": 13,
+        "title": "Qual é a cor que se associa com os grupos ecológicos?",
+        "alt1": "(1) PRETA",
+        "alt2": "(2) VERMELHA",
+        "alt3": "(3) AZUL",
+        "alt4": "(4) VERDE"
+    },
+    {
+        "id": 14,
+        "title": "A água ferve a quantos graus centígrados?",
+        "alt1": "(1) 200",
+        "alt2": "(2) 100",
+        "alt3": "(3) 170",
+        "alt4": "(4) 220"
+    },
+    {
+        "id": 15,
+        "title": "Quando é comemorado o dia da independência do Brasil?",
+        "alt1": "(1) 21 DE ABRIL",
+        "alt2": "(2) 12 DE OUTUBRO",
+        "alt3": "(3) 7 DE SETEMBRO",
+        "alt4": "(4) 25 DE DEZEMBRO"
+    },
+    {
+        "id": 16,
+        "title": "Qual lugar é também chamado de Santa Sé?",
+        "alt1": "(1) VENEZA",
+        "alt2": "(2) VITÓRIA",
+        "alt3": "(3) VANCOUVER",
+        "alt4": "(4) VATICANO"
+    },
+    {
+        "id": 17,
+        "title": "Quem tem por lema a frase: “Sempre alerta”?",
+        "alt1": "(1) MÉDICOS",
+        "alt2": "(2) ESCOTEIROS",
+        "alt3": "(3) BOMBEIROS",
+        "alt4": "(4) POLICIAIS"
+    },
+    {
+        "id": 18,
+        "title": "Quem foi o grande amor de Julieta?",
+        "alt1": "(1) ROMEU",
+        "alt2": "(2) ORFEU",
+        "alt3": "(3) HAMLET",
+        "alt4": "(4) IAGO"
+    },
+    {
+        "id": 19,
+        "title": "Quantos signos formam o zodíaco?",
+        "alt1": "(1) NOVE",
+        "alt2": "(2) DEZ",
+        "alt3": "(3) ONZE",
+        "alt4": "(4) DOZE"
+    },
+    {
+        "id": 20,
+        "title": "Vatapá é uma comida típica de qual estado?",
+        "alt1": "(1) PARANÁ",
+        "alt2": "(2) SANTA CATARINA",
+        "alt3": "(3) SÃO PAULO",
+        "alt4": "(4) BAHIA"
     }
 ]
