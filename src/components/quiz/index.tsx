@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 
-import { ContainerQuiz, ContainerButton, ContainerDificuldade, ContainerCentral } from "./style"
+import { ContainerQuiz, ContainerButton, ContainerDificuldade, ContainerCentral, ContainerMode } from "./style"
 
 import dados from "../../data/dados.json"
 
@@ -9,20 +9,23 @@ function Quiz() {
     const perguntas = dados
     const [itemselect, setItemselect] = useState(null);
     const [valueSelect, setValueSelect] = useState("")
-    const [difficultySelect, setdifficultySelect] = useState("")
+    const [difficultySelect, setDifficultySelect] = useState("")
+    const [modeSelect, setModeSelect] = useState("")
     
     useEffect(() => {console.log('qkrjugb', valueSelect)}, [valueSelect])
 
     const [valueFinal, setValueFinal] = useState('')
     const [difficultyFinal, setDifficultyFinal] = useState('')
+    const [modeFinal, setModeFinal] = useState('')
 
     function SetData(){
         setValueFinal(valueSelect)
     }
-    const alerta = () => alert("Modos de jogo: Fácil: (40 segundos para resposder) | Médio: (30 segundos para responder) | Difícil: (20 segundos para responder)");
+    //const alerta = () => alert("Modos de jogo: Fácil: (40 segundos para resposder) | Médio: (30 segundos para responder) | Difícil: (20 segundos para responder)");
 
 
     const setDifficulty = () => setDifficultyFinal(difficultySelect);
+    const setMode = () => setModeFinal(modeSelect);
 
 
 
@@ -41,13 +44,28 @@ function Quiz() {
             <ContainerCentral>
                 <ContainerDificuldade>
                     <div>
-                        <button onClick={() => alerta()}>Instruções</button>
+                        <ContainerMode>
+                            <h4>Modos de Jogo: </h4>
+                            <select name="difficulty" id="difficulty" onChange={(e) => setModeSelect(e.target.value)}>
+                                <option value="nada">Modo</option>
+                                <option value="showDoMilhao" onClick={() => setModeSelect('Easy')}>Show do Milhão</option>
+                                <option value="highScore" onClick={() => setModeSelect('Medium')}>HighScore</option>
+                            </select>
+                            <button onClick={() => setMode()}>Salvar</button>
+                            <div className="handleDifficulty">
+                                <input type="hidden" value={modeFinal}/>
+                                <span className="resposta">{modeFinal}</span>
+                            </div>
+                        </ContainerMode>
                         <h2>Escolha o Nível de dificuldade:</h2>
-                        <select name="difficulty" id="difficulty" onChange={(e) => setdifficultySelect(e.target.value)}>
+                        <h3>Fácil: 40 Segundos para responder</h3>
+                        <h3>Médio: 30 Segundos para responder</h3>
+                        <h3>Difícil: 20 Segundos para responder</h3>
+                        <select name="difficulty" id="difficulty" onChange={(e) => setDifficultySelect(e.target.value)}>
                             <option value="nada">Dificuldades</option>
-                            <option value="Easy" onClick={() => setdifficultySelect('Easy')}>Fácil</option>
-                            <option value="Medium" onClick={() => setdifficultySelect('Medium')}>Médio</option>
-                            <option value="Hard" onClick={() => setdifficultySelect('Hard')}>Difícil</option>
+                            <option value="Easy" onClick={() => setDifficultySelect('Easy')}>Fácil</option>
+                            <option value="Medium" onClick={() => setDifficultySelect('Medium')}>Médio</option>
+                            <option value="Hard" onClick={() => setDifficultySelect('Hard')}>Difícil</option>
                         </select>
                         <button onClick={() => setDifficulty()}>Salvar</button>
                         <div className="handleDifficulty">

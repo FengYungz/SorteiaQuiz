@@ -19,8 +19,8 @@
         "id": 2,
         "title": "Qual era o apelido da cantora Elis Regina?",
         "alt1": "(1) GAUCHINHA",
-        "alt2": "(2) PAULISTINHA",
-        "alt3": "(3) PIMENTINHA",
+        "alt2": "(2) PIMENTINHA",
+        "alt3": "(3) PAULISTINHA",
         "alt4": "(4) ANDORINHA"
     },
     {
@@ -33,22 +33,15 @@
     },
     {
         "id": 4,
-        "title": "Quem é a namorada do Mickey?",
-        "alt1": "(1) MARGARIDA",
-        "alt2": "(2) MINNIE",
-        "alt3": "(3) A PEQUENA SEREIA",
-        "alt4": "(4) OLÍVIA PALITO"
+        "title": "Qual é o personagem do folclore brasileiro que tem uma perna só?",
+        "alt1": "(1) CUCA",
+        "alt2": "(2) SACI-PERERÊ",
+        "alt3": "(3) NEGRINHO DO PASTOREIO",
+        "alt4": "(4) BOITATÁ"
+
     },
     {
         "id": 5,
-        "title": "Qual é o personagem do folclore brasileiro que tem uma perna só?",
-        "alt1": "(1) CUCA",
-        "alt2": "(2) NEGRINHO DO PASTOREIO",
-        "alt3": "(3) BOITATÁ",
-        "alt4": "(4) SACI-PERERÊ"
-    },
-    {
-        "id": 6,
         "title": "Fidel Castro nasceu em que país?",
         "alt1": "(1) JAMAICA",
         "alt2": "(2) CUBA",
@@ -56,63 +49,63 @@
         "alt4": "(4) MÉXICO"
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Quem proclamou a república no Brasil em 1889?",
         "alt1": "(1) DUQUE DE CAXIAS",
-        "alt2": "(2) MARECHAL RONDON",
-        "alt3": "(3) DOM PEDRO II",
-        "alt4": "(4) MARECHAL DEODORO"
+        "alt2": "(2) MARECHAL DEODORO",
+        "alt3": "(3) MARECHAL RONDON",
+        "alt4": "(4) DOM PEDRO II"
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Quem é o patrono do exército brasileiro?",
         "alt1": "(1) MARECHAL DEODORO",
-        "alt2": "(2) BARÃO DE MAUÁ",
-        "alt3": "(3) DUQUE DE CAXIAS",
+        "alt2": "(2) DUQUE DE CAXIAS",
+        "alt3": "(3) BARÃO DE MAUÁ",
         "alt4": "(4) MARQUÊS DE POMBAL"
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "Quem era o apresentador que reprovava os calouros tocando uma buzina?",
         "alt1": "(1) RAUL GIL",
-        "alt2": "(2) BOLINHA",
-        "alt3": "(3) FLÁVIO CAVALCANTI",
-        "alt4": "(4) CHACRINHA"
+        "alt2": "(2) CHACRINHA",
+        "alt3": "(3) BOLINHA",
+        "alt4": "(4) FLÁVIO CAVALCANTI"
     },
     {
-        "id": 10,
+        "id": 9,
         "title": "O que era Frankenstein, de Mary Shelley?",
-        "alt1": "(1) MONSTRO",
-        "alt2": "(2) GORILA",
+        "alt1": "(1) GORILA",
+        "alt2": "(2) MONSTRO",
         "alt3": "(3) PRÍNCIPE",
         "alt4": "(4) SAPO"
     },
     {
-        "id": 11,
+        "id": 10,
         "title": "Qual é o signo do zodíaco de quem nasce no dia do ano-novo?",
         "alt1": "(1) VIRGEM",
-        "alt2": "(2) AQUÁRIO",
-        "alt3": "(3) CAPRICÓRNIO",
+        "alt2": "(2) CAPRICÓRNIO",
+        "alt3": "(3) AQUÁRIO",
         "alt4": "(4) ÁRIES"
     },
     {
-        "id": 12,
+        "id": 11,
         "title": "Quem fundou a fábrica de automóveis Ford?",
         "alt1": "(1) HARRISON FORD",
-        "alt2": "(2) GERALD FORD",
-        "alt3": "(3) HENRY FORD",
+        "alt2": "(2) HENRY FORD",
+        "alt3": "(3) GERALD FORD",
         "alt4": "(4) ANNA FORD"
     },
     {
-        "id": 13,
+        "id": 12,
         "title": "Qual é a cor que se associa com os grupos ecológicos?",
         "alt1": "(1) PRETA",
-        "alt2": "(2) VERMELHA",
-        "alt3": "(3) AZUL",
-        "alt4": "(4) VERDE"
+        "alt2": "(2) VERDE",
+        "alt3": "(3) VERMELHA",
+        "alt4": "(4) AZUL"
     },
     {
-        "id": 14,
+        "id": 13,
         "title": "A água ferve a quantos graus centígrados?",
         "alt1": "(1) 200",
         "alt2": "(2) 100",
@@ -120,23 +113,23 @@
         "alt4": "(4) 220"
     },
     {
-        "id": 15,
+        "id": 14,
         "title": "Quando é comemorado o dia da independência do Brasil?",
         "alt1": "(1) 21 DE ABRIL",
-        "alt2": "(2) 12 DE OUTUBRO",
-        "alt3": "(3) 7 DE SETEMBRO",
+        "alt2": "(2) 7 DE SETEMBRO",
+        "alt3": "(3) 12 DE OUTUBRO",
         "alt4": "(4) 25 DE DEZEMBRO"
     },
     {
-        "id": 16,
+        "id": 15,
         "title": "Qual lugar é também chamado de Santa Sé?",
         "alt1": "(1) VENEZA",
-        "alt2": "(2) VITÓRIA",
-        "alt3": "(3) VANCOUVER",
-        "alt4": "(4) VATICANO"
+        "alt2": "(2) VATICANO",
+        "alt3": "(3) VITÓRIA",
+        "alt4": "(4) VANCOUVER"
     },
     {
-        "id": 17,
+        "id": 16,
         "title": "Quem tem por lema a frase: “Sempre alerta”?",
         "alt1": "(1) MÉDICOS",
         "alt2": "(2) ESCOTEIROS",
@@ -144,27 +137,27 @@
         "alt4": "(4) POLICIAIS"
     },
     {
-        "id": 18,
+        "id": 17,
         "title": "Quem foi o grande amor de Julieta?",
-        "alt1": "(1) ROMEU",
-        "alt2": "(2) ORFEU",
+        "alt1": "(1) ORFEU",
+        "alt2": "(2) ROMEU",
         "alt3": "(3) HAMLET",
         "alt4": "(4) IAGO"
     },
     {
-        "id": 19,
+        "id": 18,
         "title": "Quantos signos formam o zodíaco?",
         "alt1": "(1) NOVE",
-        "alt2": "(2) DEZ",
-        "alt3": "(3) ONZE",
-        "alt4": "(4) DOZE"
+        "alt2": "(2) DOZE",
+        "alt3": "(3) DEZ",
+        "alt4": "(4) ONZE"
     },
     {
-        "id": 20,
+        "id": 19,
         "title": "Vatapá é uma comida típica de qual estado?",
         "alt1": "(1) PARANÁ",
-        "alt2": "(2) SANTA CATARINA",
-        "alt3": "(3) SÃO PAULO",
-        "alt4": "(4) BAHIA"
+        "alt2": "(2) BAHIA",
+        "alt3": "(3) SANTA CATARINA",
+        "alt4": "(4) SÃO PAULO"
     }
 ]
