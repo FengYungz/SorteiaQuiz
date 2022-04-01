@@ -7,7 +7,6 @@ export const ContainerCentral = styled.div`
     gap: 20px;
 `
 
-
 export const ContainerQuiz = styled.div`
 
 display: flex;
@@ -117,10 +116,14 @@ export const ContainerDificuldade = styled.div`
     }
 
     h2{
-        margin-top: 80px;
+        margin-top: 10px;
         margin-bottom: 30px;
         color: black;
         font-size: 30px;
+    }
+
+    h3{
+        font-size: 10px;
     }
 
     span{
@@ -129,7 +132,21 @@ export const ContainerDificuldade = styled.div`
 
     select{
         border-radius: 5px;
-        margin-top: 40px;
+        margin-top: 30px;
         text-align: center;
     }
+`
+
+export const ContainerMode = styled.div`
+
+    h4{
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    select{
+      width  : 270px;
+    }
+
 `
