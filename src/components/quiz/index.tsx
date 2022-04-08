@@ -21,7 +21,6 @@ function Quiz() {
     function SetData(){
         setValueFinal(valueSelect)
     }
-    //const alerta = () => alert("Modos de jogo: Fácil: (40 segundos para resposder) | Médio: (30 segundos para responder) | Difícil: (20 segundos para responder)");
 
 
     const setDifficulty = () => setDifficultyFinal(difficultySelect);
@@ -30,9 +29,10 @@ function Quiz() {
 
 
     function ramdom() {
-    const value = Math.floor(Math.random() * 20);
-    // @ts-ignore
-    setItemselect(value);
+        const value = Math.floor(Math.random() * 20);
+        // @ts-ignore
+        setItemselect(value);
+    
 
     console.log("ITEM SELECIONADO::::", perguntas[value]);
     }
@@ -48,8 +48,7 @@ function Quiz() {
                             <h4>Modos de Jogo: </h4>
                             <select name="difficulty" id="difficulty" onChange={(e) => setModeSelect(e.target.value)}>
                                 <option value="nada">Modo</option>
-                                <option value="showDoMilhao" onClick={() => setModeSelect('Easy')}>Show do Milhão</option>
-                                <option value="highScore" onClick={() => setModeSelect('Medium')}>HighScore</option>
+                                <option value="highScore" onClick={() => setModeSelect('highScore')}>HighScore</option>
                             </select>
                             <button onClick={() => setMode()}>Salvar</button>
                             <div className="handleDifficulty">
@@ -58,9 +57,9 @@ function Quiz() {
                             </div>
                         </ContainerMode>
                         <h2>Escolha o Nível de dificuldade:</h2>
-                        <h3>Fácil: 40 Segundos para responder</h3>
-                        <h3>Médio: 30 Segundos para responder</h3>
-                        <h3>Difícil: 20 Segundos para responder</h3>
+                        <h3>Fácil: 30 Segundos para responder</h3>
+                        <h3>Médio: 20 Segundos para responder</h3>
+                        <h3>Difícil: 10 Segundos para responder</h3>
                         <select name="difficulty" id="difficulty" onChange={(e) => setDifficultySelect(e.target.value)}>
                             <option value="nada">Dificuldades</option>
                             <option value="Easy" onClick={() => setDifficultySelect('Easy')}>Fácil</option>
