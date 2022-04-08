@@ -43,14 +43,13 @@ function Quiz() {
 
     function limpar(){
         setItemselect(null)
-        clean()
     }
 
     //Avisos
     const modeGame = () => toast.success("Modo de Jogo Selecionado!")
     const difficulty = () => toast.success("Dificuldade Selecionada!")
     const sort = () => toast.success("Pergunta Sorteada!")
-    const clean = () => toast.success("Limpando Pergunta!")
+    //const clean = () => toast.success("Limpando Pergunta!")
     const save = () => toast.success("Resposta registrada com sucesso!")
 
     return(
