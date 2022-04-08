@@ -39,7 +39,7 @@ function Quiz() {
         const value = Math.floor(Math.random() * 20);
         // @ts-ignore
         setItemselect(value);
-        toast.success("Pergunta Sorteada!")
+        //toast.success("Pergunta Sorteada!")
         //sort()
 
     console.log("ITEM SELECIONADO::::", perguntas[value]);
@@ -47,7 +47,7 @@ function Quiz() {
 
     function limpar(){
         setItemselect(null)
-        toast.success("Limpando Pergunta!")
+        //toast.success("Limpando Pergunta!")
         //clean()
     }
 
