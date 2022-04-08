@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { ContainerQuiz, ContainerButton, ContainerDificuldade, ContainerCentral, ContainerMode } from "./style"
 import dados from "../../data/dados.json"
-import { toast } from 'react-toastify';
+//import { toast } from 'react-toastify';
 
 function Quiz() {
     const perguntas = dados
@@ -19,24 +19,24 @@ function Quiz() {
 
     function SetData(){
         setValueFinal(valueSelect)
-        save()
+        //save()
     }
 
     const setDifficulty = () => {
         setDifficultyFinal(difficultySelect)
-        difficulty()
+        //difficulty()
     }
 
     const setMode = () => {
         setModeFinal(modeSelect)
-        modeGame()
+        //modeGame()
     }
 
     function ramdom() {
         const value = Math.floor(Math.random() * 20);
         // @ts-ignore
         setItemselect(value);
-        sort()
+        //sort()
 
     console.log("ITEM SELECIONADO::::", perguntas[value]);
     }
@@ -46,11 +46,11 @@ function Quiz() {
     }
 
     //Avisos
-    const modeGame = () => toast.success("Modo de Jogo Selecionado!")
-    const difficulty = () => toast.success("Dificuldade Selecionada!")
-    const sort = () => toast.success("Pergunta Sorteada!")
+    //const modeGame = () => toast.success("Modo de Jogo Selecionado!")
+    //const difficulty = () => toast.success("Dificuldade Selecionada!")
+    //const sort = () => toast.success("Pergunta Sorteada!")
     //const clean = () => toast.success("Limpando Pergunta!")
-    const save = () => toast.success("Resposta registrada com sucesso!")
+    //const save = () => toast.success("Resposta registrada com sucesso!")
 
     return(
         <>
