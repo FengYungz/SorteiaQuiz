@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { ContainerQuiz, ContainerButton, ContainerDificuldade, ContainerCentral, ContainerMode } from "./style"
 import dados from "../../data/dados.json"
-//import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 function Quiz() {
     const perguntas = dados
@@ -19,16 +19,19 @@ function Quiz() {
 
     function SetData(){
         setValueFinal(valueSelect)
+        toast.success("Resposta registrada com sucesso!")
         //save()
     }
 
     const setDifficulty = () => {
         setDifficultyFinal(difficultySelect)
+        toast.success("Dificuldade Selecionada!")
         //difficulty()
     }
 
     const setMode = () => {
         setModeFinal(modeSelect)
+        toast.success("Modo de Jogo Selecionado!")
         //modeGame()
     }
 
@@ -36,6 +39,7 @@ function Quiz() {
         const value = Math.floor(Math.random() * 20);
         // @ts-ignore
         setItemselect(value);
+        toast.success("Pergunta Sorteada!")
         //sort()
 
     console.log("ITEM SELECIONADO::::", perguntas[value]);
@@ -43,6 +47,8 @@ function Quiz() {
 
     function limpar(){
         setItemselect(null)
+        toast.success("Limpando Pergunta!")
+        //clean()
     }
 
     //Avisos
