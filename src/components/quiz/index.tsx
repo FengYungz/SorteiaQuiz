@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-
 import { ContainerQuiz, ContainerButton, ContainerDificuldade, ContainerCentral, ContainerMode } from "./style"
-
 import dados from "../../data/dados.json"
+import { toast } from 'react-toastify';
 
 function Quiz() {
     const perguntas = dados
@@ -20,24 +19,39 @@ function Quiz() {
 
     function SetData(){
         setValueFinal(valueSelect)
+        save()
     }
 
+    const setDifficulty = () => {
+        setDifficultyFinal(difficultySelect)
+        difficulty()
+    }
 
-    const setDifficulty = () => setDifficultyFinal(difficultySelect);
-    const setMode = () => setModeFinal(modeSelect);
-
-
+    const setMode = () => {
+        setModeFinal(modeSelect)
+        modeGame()
+    }
 
     function ramdom() {
         const value = Math.floor(Math.random() * 20);
         // @ts-ignore
         setItemselect(value);
-    
+        sort()
 
     console.log("ITEM SELECIONADO::::", perguntas[value]);
     }
 
-    function limpar() { setItemselect(null)}
+    function limpar(){
+        setItemselect(null)
+        clean()
+    }
+
+    //Avisos
+    const modeGame = () => toast.success("Modo de Jogo Selecionado!")
+    const difficulty = () => toast.success("Dificuldade Selecionada!")
+    const sort = () => toast.success("Pergunta Sorteada!")
+    const clean = () => toast.info("Limpando pergunta!")
+    const save = () => toast.success("Resposta registrada com sucesso!")
 
     return(
         <>
