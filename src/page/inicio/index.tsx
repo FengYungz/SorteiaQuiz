@@ -7,7 +7,7 @@ function Page() {
         <>
             <ContainerPage>
                 <div>
-                    <h1>Sorteador de Perguntas</h1>
+                    <h1>MQuizTT</h1>
                 </div>
                 <Quiz />
             </ContainerPage>

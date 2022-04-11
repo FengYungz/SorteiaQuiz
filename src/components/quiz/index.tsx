@@ -36,7 +36,7 @@ function Quiz() {
     }
 
     function ramdom() {
-        const value = Math.floor(Math.random() * 20);
+        const value = Math.floor(Math.random() * 40);
         // @ts-ignore
         setItemselect(value);
         //toast.success("Pergunta Sorteada!")
