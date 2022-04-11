@@ -159,5 +159,165 @@
         "alt2": "(2) BAHIA",
         "alt3": "(3) SANTA CATARINA",
         "alt4": "(4) SÃO PAULO"
+    },
+    {
+        "id": 20,
+        "title": "Qual personagem da turma da Mônica tem apenas cinco fios de cabelo?",
+        "alt1": "(1) MÔNICA",
+        "alt2": "(2) CEBOLINHA",
+        "alt3": "(3) MARGARIDA",
+        "alt4": "(4) CASCAO"
+    },
+    {
+        "id": 21,
+        "title": "Quem fundou a Microsoft?",
+        "alt1": "(1) SULTÃO DE BRUNEI",
+        "alt2": "(2) BILL GATES",
+        "alt3": "(3) AKIO MORITA",
+        "alt4": "(4) PRÍNCIPE CHARLES"
+    },
+    {
+        "id": 22,
+        "title": "Qual é o nome dado ao pneu reserva do carro?",
+        "alt1": "(1) CALOTA",
+        "alt2": "(2) ESTEPE",
+        "alt3": "(3) MACACO",
+        "alt4": "(4) CHAVE DE RODA"
+    },
+    {
+        "id": 23,
+        "title": "Qual é o nome do cachorro medroso do Salsicha, dos desenhos animados?",
+        "alt1": "(1) FLOQUINHO",
+        "alt2": "(2) SCOOBY-DOO",
+        "alt3": "(3) RIN-TIN-TIN",
+        "alt4": "(4) LASSIE"
+    },
+    {
+        "id": 24,
+        "title": "Qual é a pedra preciosa mais dura encontrada na natureza?",
+        "alt1": "(1) RUBI",
+        "alt2": "(2) DIAMANTE",
+        "alt3": "(3) ESMERALDA",
+        "alt4": "(4) PÉROLA"
+    },
+    {
+        "id": 25,
+        "title": "Qual cantor ficou conhecido como “o rei do rock”?",
+        "alt1": "(1) FRANK SINATRA",
+        "alt2": "(2) ELVIS PRESLEY",
+        "alt3": "(3) RICHIE VALENS",
+        "alt4": "(4) LITTLE RICHARD"
+    },
+    {
+        "id": 26,
+        "title": "Quem é o inimigo do Piu-Piu nos desenhos animados?",
+        "alt1": "(1) TOM",
+        "alt2": "(2) FRAJOLA",
+        "alt3": "(3) FÉLIX",
+        "alt4": "(4) MINGAU"
+    },
+    {
+        "id": 27,
+        "title": "Qual é o réptil que muda de cor conforme o lugar em que está?",
+        "alt1": "(1) LAGARTO",
+        "alt2": "(2) CAMALEÃO",
+        "alt3": "(3) SAPO",
+        "alt4": "(4) JACARÉ"
+    },
+    {
+        "id": 28,
+        "title": "Qual é a duração de cada tempo de uma partida de futebol?",
+        "alt1": "(1) 90 MINUTOS",
+        "alt2": "(2) 45 MINUTOS",
+        "alt3": "(3) 120 MINUTOS",
+        "alt4": "(4) 60 MINUTOS"
+    },
+    {
+        "id": 29,
+        "title": "Onde fica o centro da indústria cinematográfica nos EUA?",
+        "alt1": "(1) NOVA YORK",
+        "alt2": "(2) HOLYWOOD",
+        "alt3": "(3) NEW ORLEANS",
+        "alt4": "(4) LAS VEGAS"
+    },
+    {
+        "id": 30,
+        "title": "Qual era o código da identidade secreta de James Bond?",
+        "alt1": "(1) 070",
+        "alt2": "(2) 007",
+        "alt3": "(3) 7O7",
+        "alt4": "(4) 777"
+    },
+    {
+        "id": 31,
+        "title": "De acordo com a Bíblia, qual era o “fruto proibido”?",
+        "alt1": "(1) ÚVA",
+        "alt2": "(2) MAÇÃ",
+        "alt3": "(3) MAMÃO",
+        "alt4": "(4) ABACAXI"
+    },
+    {
+        "id": 32,
+        "title": "Em que ano os portugueses descobriram o Brasil?",
+        "alt1": "(1) 1550",
+        "alt2": "(2) 1500",
+        "alt3": "(3) 1510",
+        "alt4": "(4) 1450"
+    },
+    {
+        "id": 33,
+        "title": "Qual foi o placar no final da Copa de 98, quando o Brasil perdeu para a França?",
+        "alt1": "(1) DOIS A ZERO",
+        "alt2": "(2) TRÊS A ZERO",
+        "alt3": "(3) DOIS A UM",
+        "alt4": "(4) TRÊS A UM"
+    },
+    {
+        "id": 34,
+        "title": "Quantas folhas tem um trevo da sorte?",
+        "alt1": "(1) TRÊS",
+        "alt2": "(2) QUATRO",
+        "alt3": "(3) CINCO",
+        "alt4": "(4) SEIS"
+    },
+    {
+        "id": 35,
+        "title": "Qual é a cidade conhecida como “terra da garoa”?",
+        "alt1": "(1) PIRACICABA",
+        "alt2": "(2) SÃO PAULO",
+        "alt3": "(3) RIO DE JANEIRO",
+        "alt4": "(4) PORTO ALEGRE"
+    },
+    {
+        "id": 36,
+        "title": "O saquê é uma bebida típica de qual país?",
+        "alt1": "(1) CHINA",
+        "alt2": "(2) JAPÃO",
+        "alt3": "(3) CORÉIA DO SUL",
+        "alt4": "(4) ESTADOS UNIDOS"
+    },
+    {
+        "id": 37,
+        "title": "O dromedário tem quantas corcovas?",
+        "alt1": "(1) DUAS",
+        "alt2": "(2) UMA",
+        "alt3": "(3) TRÊS",
+        "alt4": "(4) ZER0"
+    },
+    {
+        "id": 38,
+        "title": "Qual foi o nome dado ao movimento liderado por Tiradentes?",
+        "alt1": "(1) REVOLUÇÃO FRANCESA",
+        "alt2": "(2) INCONFIDÊNCIA MINEIRA",
+        "alt3": "(3) SEGUNDA GUERRA MUNDIAL",
+        "alt4": "(4) GUERRA DOS EMBOABAS"
+    },
+    {
+        "id": 39,
+        "title": "Qual é o ponto mais alto da Terra?",
+        "alt1": "(1) MONTE SINAI",
+        "alt2": "(2) EVEREST",
+        "alt3": "(3) MONTE CASTELO",
+        "alt4": "(4) MONT BLANC"
     }
 ]
